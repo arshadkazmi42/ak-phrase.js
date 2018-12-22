@@ -15,7 +15,7 @@ const wordArray = [
     ['sleep']
 ];
 
-const sentences = setenceGenerator.generateSentences(wordArray);
+const sentences = sentenceGenerator.generateSentences(wordArray);
 console.log(sentences);
 
 // Output:
