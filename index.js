@@ -21,15 +21,12 @@ const externals = {}
  * @param url: Input URL to validate
  */
 externals.generateSentences = (wordsList) => {
-  if (wordsList.length === 0) {
+  if (wordsList === null || wordsList.length === 0) {
     return null;
   }
 
   // To hold the temporary data
-  let sentences = [];
-  for (let i=0;i<wordsList.length;i++) {
-    sentences.push('');
-  }
+  const sentences = Array(wordsList.length).fill('')
 
   // Array to hold all the sentences formed.
   let generatedSentences = []
