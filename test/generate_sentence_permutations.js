@@ -18,4 +18,10 @@ describe('Generating all permutation of sentences', () => {
     const sentences = generator.generateSentences(wordList);
     expect(sentences).to.equal(null);
   });
+
+  it('should return empty list', async () => {
+    const wordList = null
+    const sentences = generator.generateSentences(wordList);
+    expect(sentences).to.equal(null);
+  });
 });
