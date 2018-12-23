@@ -38,9 +38,9 @@ externals.generateSentences = (wordsList) => {
   return generatedSentences;
 }
 
-externals.generateSentencePermutations = (wordsList, startIndex, sentenceIndex, sentences, generateSentences) => {
+externals.generateSentencePermutations = (wordsList, startIndex, wordIndex, sentences, generateSentences) => {
 
-  sentences[startIndex] = wordsList[startIndex][sentenceIndex];
+  sentences[startIndex] = wordsList[startIndex][wordIndex];
 
   if (startIndex == (wordsList.length - 1)) {
     generateSentences.push(sentences.join(" "));
