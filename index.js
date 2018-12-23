@@ -9,16 +9,6 @@ const externals = {}
  * It keeps the order of words same in sentence as given in input
  * First row will be first word in the sentence, second row will be second and so on
  * It will generate sentences equals to the number of rows in the 2D array
- * 
- * {
- *   isValid,
- *   code,
- *   message
- * }
- * 
- * It only returns message when the url is not valid.
- * 
- * @param url: Input URL to validate
  */
 externals.generateSentences = (wordsList) => {
   if (wordsList.length === 0) {
