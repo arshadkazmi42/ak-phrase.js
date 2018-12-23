@@ -19,7 +19,7 @@ describe('Generating all permutation of sentences', () => {
     expect(sentences).to.equal(null);
   });
 
-  it('should return empty list', async () => {
+  it('should return empty list for null input', async () => {
     const wordList = null
     const sentences = generator.generateSentences(wordList);
     expect(sentences).to.equal(null);
