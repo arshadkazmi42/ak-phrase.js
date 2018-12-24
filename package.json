@@ -8,7 +8,7 @@
   },
   "name": "ak-phrase",
   "description": "[![Build Status](https://api.travis-ci.com/arshadkazmi42/ak-phrase.js.svg?branch=master)](https://api.travis-ci.com/arshadkazmi42/ak-phrase.js)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -48,6 +48,16 @@
     "type": "git",
     "url": "git+https://github.com/arshadkazmi42/ak-phrase.js.git"
   },
+  "keywords": [
+	"phrase",
+	"sentence",
+	"words",
+	"sentence generator",
+	"phrase generator",
+	"words combination",
+	"permutations",
+	"combinations"
+  ],
   "author": "Arshad Kazmi",
   "license": "GPL-3.0-or-later",
   "bugs": {
