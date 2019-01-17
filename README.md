@@ -6,6 +6,12 @@ This library generates all the permutations of sentences from words in a 2D arra
 
 It follows the word orders in sentence, same as the words order in array column wise.
 
+## Install
+
+```
+$ npm install ak-phrasae.js
+```
+
 ## Usage
 
 ```js
