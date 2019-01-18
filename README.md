@@ -6,6 +6,11 @@ This library generates all the permutations of sentences from words in a 2D arra
 
 It follows the word orders in sentence, same as the words order in array column wise.
 
+
+<a href="https://www.patreon.com/bePatron?u=15454240" target="_blank"><img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patron!" height="41"></a>
+
+Please consider donating, if you like my work
+
 ## Install
 
 ```
