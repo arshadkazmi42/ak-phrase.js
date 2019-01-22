@@ -7,7 +7,7 @@
     "mocha": "^5.2.0"
   },
   "name": "ak-phrase",
-  "description": "[![Build Status](https://api.travis-ci.com/arshadkazmi42/ak-phrase.js.svg?branch=master)](https://api.travis-ci.com/arshadkazmi42/ak-phrase.js)",
+  "description": "Generates all the permutations of sentences from words in a 2D array.",
   "version": "1.0.2",
   "main": "index.js",
   "directories": {
