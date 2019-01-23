@@ -8,7 +8,7 @@
   },
   "name": "ak-phrase",
   "description": "Generates all the permutations of sentences from words in a 2D array.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "directories": {
     "test": "test"
