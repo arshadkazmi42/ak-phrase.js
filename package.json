@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "node_modules/mocha/bin/mocha test/generate_sentence_permutations.js"
+    "test": "node ./node_modules/mocha/bin/mocha test/generate_sentence_permutations.js"
   },
   "devDependencies": {
     "chai": "^4.2.0",
