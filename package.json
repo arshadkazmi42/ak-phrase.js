@@ -18,14 +18,14 @@
     "url": "git+https://github.com/arshadkazmi42/ak-phrase.js.git"
   },
   "keywords": [
-	"phrase",
-	"sentence",
-	"words",
-	"sentence generator",
-	"phrase generator",
-	"words combination",
-	"permutations",
-	"combinations"
+    "phrase",
+    "sentence",
+    "words",
+    "sentence generator",
+    "phrase generator",
+    "words combination",
+    "permutations",
+    "combinations"
   ],
   "author": "Arshad Kazmi",
   "license": "GPL-3.0-or-later",
