@@ -1,6 +1,6 @@
 # ak-phrase.js
 
-[![Build Status](https://api.travis-ci.com/arshadkazmi42/ak-phrase.js.svg?branch=master)](https://api.travis-ci.com/arshadkazmi42/ak-phrase.js) [![NPM Downloads](https://img.shields.io/npm/dt/ak-phrase.svg)](https://www.npmjs.com/package/ak-phrase
+[![Build Status](https://api.travis-ci.com/arshadkazmi42/ak-phrase.js.svg?branch=master)](https://api.travis-ci.com/arshadkazmi42/ak-phrase.js) [![NPM Downloads](https://img.shields.io/npm/dt/ak-phrase.svg)](https://www.npmjs.com/package/ak-phrase)
 
 This library generates all the permutations of sentences from words in a 2D array.
 
