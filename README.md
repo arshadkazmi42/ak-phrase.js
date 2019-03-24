@@ -1,5 +1,6 @@
 # ak-phrase.js
 
+[![Contributors](https://img.shields.io/github/contributors/arshadkazmi42/ak-phrase.js.svg)](https://github.com/arshadkazmi42/ak-phrase.js/graphs/contributors)
 [![Github Repo Size](https://img.shields.io/github/repo-size/arshadkazmi42/ak-phrase.js.svg)](https://github.com/arshadkazmi42/ak-phrase.js)
 [![Build Status](https://api.travis-ci.com/arshadkazmi42/ak-phrase.js.svg?branch=master)](https://api.travis-ci.com/arshadkazmi42/ak-phrase.js) [![NPM Downloads](https://img.shields.io/npm/dt/ak-phrase.svg)](https://www.npmjs.com/package/ak-phrase)
 [![Commit](https://img.shields.io/github/last-commit/arshadkazmi42/ak-phrase.js.svg)](https://github.com/arshadkazmi42/ak-phrase.js/commits/master)
