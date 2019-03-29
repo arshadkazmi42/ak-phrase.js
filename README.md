@@ -18,16 +18,20 @@ Please consider donating, if you like my work.
 
 ## Install
 
-> $ npm install ak-phrase
+```
+npm install ak-phrase
+```
 
 or
 
-> $ yarn add ak-phrase
+```
+yarn add ak-phrase
+```
 
 ## Usage
 
 ```js
-const sentenceGenerator = require('ak-phrase');
+const generateSentences = require('ak-phrase');
 
 const wordArray = [
     ['eat'], 
@@ -35,7 +39,7 @@ const wordArray = [
     ['sleep']
 ];
 
-const sentences = sentenceGenerator.generateSentences(wordArray);
+const sentences = generateSentences(wordArray);
 console.log(sentences);
 
 // Output:
