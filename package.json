@@ -1,22 +1,10 @@
 {
-  "scripts": {
-    "test": "node_modules/mocha/bin/mocha test/generate_sentence_permutations.js"
-  },
-  "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^5.2.0"
-  },
   "name": "ak-phrase",
-  "description": "Generates all the permutations of sentences from words in a 2D array.",
   "version": "1.0.3",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/arshadkazmi42/ak-phrase.js.git"
-  },
+  "description": "Generates all the permutations of sentences from words in a 2D array.",
+  "author": "Arshad Kazmi",
+  "license": "GPL-3.0-or-later",
   "keywords": [
     "phrase",
     "sentence",
@@ -27,8 +15,21 @@
     "permutations",
     "combinations"
   ],
-  "author": "Arshad Kazmi",
-  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha test/**"
+  },
+  "files": ["index.js"],
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arshadkazmi42/ak-phrase.js.git"
+  },
   "bugs": {
     "url": "https://github.com/arshadkazmi42/ak-phrase.js/issues"
   },
