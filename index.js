@@ -3,14 +3,14 @@ const generateSentencePermutations = (
   startIndex,
   wordIndex,
   sentences,
-  generatedSentencesArr,
+  generatedSentencesArr
 ) => {
   /* eslint-disable no-param-reassign */
-  sentences[startIndex] = wordsList[startIndex][wordIndex];
+  sentences[startIndex] = wordsList[startIndex][wordIndex]
 
   if (startIndex === wordsList.length - 1) {
-    generatedSentencesArr.push(sentences.join(' '));
-    return;
+    generatedSentencesArr.push(sentences.join(' '))
+    return
   }
 
   wordsList.slice(startIndex + 1).forEach((_, i) => {
@@ -19,10 +19,10 @@ const generateSentencePermutations = (
       startIndex + 1,
       i,
       sentences,
-      generatedSentencesArr,
-    );
-  });
-};
+      generatedSentencesArr
+    )
+  })
+}
 
 /**
  * Function `generateSentences` takes 2D array of words as input
@@ -31,16 +31,16 @@ const generateSentencePermutations = (
  * First row will be first word in the sentence, second row will be second and so on
  * It will generate sentences equals to the number of rows in the 2D array
  */
-const generateSentences = (wordsList) => {
+const generateSentences = wordsList => {
   if (wordsList === null || !wordsList.length) {
-    return null;
+    return null
   }
 
   // To hold the temporary data
-  const sentences = Array(wordsList.length);
+  const sentences = Array(wordsList.length)
 
   // Array to hold all the sentences formed.
-  const generatedSentencesArr = [];
+  const generatedSentencesArr = []
 
   wordsList[0].forEach((_, i) => {
     generateSentencePermutations(
@@ -48,11 +48,11 @@ const generateSentences = (wordsList) => {
       0,
       i,
       sentences,
-      generatedSentencesArr,
-    );
-  });
+      generatedSentencesArr
+    )
+  })
 
-  return generatedSentencesArr;
-};
+  return generatedSentencesArr
+}
 
-module.exports = generateSentences;
+module.exports = generateSentences
