@@ -19,24 +19,24 @@ const generateSentences = (wordsList) => {
   const generatedSentences = [];
 
   for (let i = 0; i < wordsList[0].length; i++) {
-    generateSentencePermutations(wordsList, 0, i, sentences, generatedSentences)
+    generateSentencePermutations(wordsList, 0, i, sentences, generatedSentences);
   }
 
   return generatedSentences;
-}
+};
 
 const generateSentencePermutations = (wordsList, startIndex, wordIndex, sentences, generateSentences) => {
 
   sentences[startIndex] = wordsList[startIndex][wordIndex];
 
   if (startIndex === (wordsList.length - 1)) {
-    generateSentences.push(sentences.join(" "));
+    generateSentences.push(sentences.join(' '));
     return;
   }
 
   for (let i = 0; i < wordsList[startIndex + 1].length; i++) {
     generateSentencePermutations(wordsList, startIndex + 1, i, sentences, generateSentences);
   }
-}
+};
 
 module.exports = generateSentences;

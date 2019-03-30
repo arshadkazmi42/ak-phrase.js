@@ -16,12 +16,16 @@
     "combinations"
   ],
   "scripts": {
+    "lint": "eslint --ignore-path .gitignore .",
+    "pretest": "eslint --ignore-path .gitignore .",
     "test": "node_modules/mocha/bin/mocha test/**"
   },
   "files": ["index.js"],
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "eslint": "^5.11.1",
+    "eslint-config-strongloop": "^2.1.0"
   },
   "directories": {
     "test": "test"

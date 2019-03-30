@@ -14,13 +14,13 @@ describe('Generating all permutation of sentences', () => {
   });
 
   it('should return empty list', async () => {
-    const wordList = []
+    const wordList = [];
     const sentences = generateSentences(wordList);
     expect(sentences).to.equal(null);
   });
 
   it('should return empty list for null input', async () => {
-    const wordList = null
+    const wordList = null;
     const sentences = generateSentences(wordList);
     expect(sentences).to.equal(null);
   });
