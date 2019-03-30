@@ -1,4 +1,28 @@
-'use strict';
+const generateSentencePermutations = (
+  wordsList,
+  startIndex,
+  wordIndex,
+  sentences,
+  generatedSentencesArr,
+) => {
+  /* eslint-disable no-param-reassign */
+  sentences[startIndex] = wordsList[startIndex][wordIndex];
+
+  if (startIndex === wordsList.length - 1) {
+    generatedSentencesArr.push(sentences.join(' '));
+    return;
+  }
+
+  wordsList.slice(startIndex + 1).forEach((_, i) => {
+    generateSentencePermutations(
+      wordsList,
+      startIndex + 1,
+      i,
+      sentences,
+      generatedSentencesArr,
+    );
+  });
+};
 
 /**
  * Function `generateSentences` takes 2D array of words as input
@@ -8,35 +32,27 @@
  * It will generate sentences equals to the number of rows in the 2D array
  */
 const generateSentences = (wordsList) => {
-  if (wordsList === null || wordsList.length === 0) {
+  if (wordsList === null || !wordsList.length) {
     return null;
   }
 
   // To hold the temporary data
-  const sentences = Array(wordsList.length).fill('');
+  const sentences = Array(wordsList.length);
 
   // Array to hold all the sentences formed.
-  const generatedSentences = [];
+  const generatedSentencesArr = [];
 
-  for (let i = 0; i < wordsList[0].length; i++) {
-    generateSentencePermutations(wordsList, 0, i, sentences, generatedSentences)
-  }
+  wordsList[0].forEach((_, i) => {
+    generateSentencePermutations(
+      wordsList,
+      0,
+      i,
+      sentences,
+      generatedSentencesArr,
+    );
+  });
 
-  return generatedSentences;
-}
-
-const generateSentencePermutations = (wordsList, startIndex, wordIndex, sentences, generateSentences) => {
-
-  sentences[startIndex] = wordsList[startIndex][wordIndex];
-
-  if (startIndex === (wordsList.length - 1)) {
-    generateSentences.push(sentences.join(" "));
-    return;
-  }
-
-  for (let i = 0; i < wordsList[startIndex + 1].length; i++) {
-    generateSentencePermutations(wordsList, startIndex + 1, i, sentences, generateSentences);
-  }
-}
+  return generatedSentencesArr;
+};
 
 module.exports = generateSentences;
