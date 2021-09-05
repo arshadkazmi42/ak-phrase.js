@@ -1,6 +1,6 @@
 {
   "name": "ak-phrase",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "index.js",
   "description": "Generates all the permutations of sentences from words in a 2D array.",
   "author": "Arshad Kazmi",
