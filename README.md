@@ -1,11 +1,12 @@
 # ak-phrase
 
-[![Contributors](https://img.shields.io/github/contributors/arshadkazmi42/ak-phrase.js.svg)](https://github.com/arshadkazmi42/ak-phrase.js/graphs/contributors)
+[![Build](https://github.com/arshadkazmi42/ak-phrase.js/actions/workflows/nodejs.yml/badge.svg)](https://github.com/arshadkazmi42/ak-phrase.js/actions/workflows/nodejs.yml)
+[![NPM Version](https://img.shields.io/npm/v/ak-phrase.js.svg)](https://www.npmjs.com/package/ak-phrase.js)
+[![NPM Downloads](https://img.shields.io/npm/dt/ak-phrase.js.svg)](https://www.npmjs.com/package/ak-phrase.js)
 [![Github Repo Size](https://img.shields.io/github/repo-size/arshadkazmi42/ak-phrase.js.svg)](https://github.com/arshadkazmi42/ak-phrase.js)
-[![Build Status](https://api.travis-ci.com/arshadkazmi42/ak-phrase.js.svg?branch=master)](https://api.travis-ci.com/arshadkazmi42/ak-phrase.js) [![NPM Downloads](https://img.shields.io/npm/dt/ak-phrase.svg)](https://www.npmjs.com/package/ak-phrase)
+[![LICENSE](https://img.shields.io/npm/l/ak-phrase.js.svg)](https://github.com/arshadkazmi42/ak-phrase.js/blob/master/LICENSE)
+[![Contributors](https://img.shields.io/github/contributors/arshadkazmi42/ak-phrase.js.svg)](https://github.com/arshadkazmi42/ak-phrase.js/graphs/contributors)
 [![Commit](https://img.shields.io/github/last-commit/arshadkazmi42/ak-phrase.js.svg)](https://github.com/arshadkazmi42/ak-phrase.js/commits/master)
-[![LICENSE](https://img.shields.io/npm/l/ak-phrase.svg)](https://github.com/arshadkazmi42/ak-phrase.js/LICENSE)
-[![NPM Version](https://img.shields.io/npm/v/ak-phrase.svg)](https://www.npmjs.com/package/ak-phrase)
 
 This library generates all the permutations of sentences using the words supplied in a 2D array.
 
