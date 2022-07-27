@@ -1,10 +1,10 @@
 # ak-phrase
 
 [![Build](https://github.com/arshadkazmi42/ak-phrase.js/actions/workflows/nodejs.yml/badge.svg)](https://github.com/arshadkazmi42/ak-phrase.js/actions/workflows/nodejs.yml)
-[![NPM Version](https://img.shields.io/npm/v/ak-phrase.js.svg)](https://www.npmjs.com/package/ak-phrase.js)
-[![NPM Downloads](https://img.shields.io/npm/dt/ak-phrase.js.svg)](https://www.npmjs.com/package/ak-phrase.js)
+[![NPM Version](https://img.shields.io/npm/v/ak-phrase.svg)](https://www.npmjs.com/package/ak-phrase)
+[![NPM Downloads](https://img.shields.io/npm/dt/ak-phrase.svg)](https://www.npmjs.com/package/ak-phrase)
 [![Github Repo Size](https://img.shields.io/github/repo-size/arshadkazmi42/ak-phrase.js.svg)](https://github.com/arshadkazmi42/ak-phrase.js)
-[![LICENSE](https://img.shields.io/npm/l/ak-phrase.js.svg)](https://github.com/arshadkazmi42/ak-phrase.js/blob/master/LICENSE)
+[![LICENSE](https://img.shields.io/npm/l/ak-phrase.svg)](https://github.com/arshadkazmi42/ak-phrase.js/blob/master/LICENSE)
 [![Contributors](https://img.shields.io/github/contributors/arshadkazmi42/ak-phrase.js.svg)](https://github.com/arshadkazmi42/ak-phrase.js/graphs/contributors)
 [![Commit](https://img.shields.io/github/last-commit/arshadkazmi42/ak-phrase.js.svg)](https://github.com/arshadkazmi42/ak-phrase.js/commits/master)
 
